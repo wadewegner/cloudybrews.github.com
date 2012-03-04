@@ -13,12 +13,9 @@ tagline: Supporting tagline
 		<em>Posted on {{ post.date | date_to_long_string }}.</em>
 		{% endfor %}
     </div>
-	<div class="span2 side-unit">
+	<div class="span2">
       <!--Sidebar content-->
-      side
+      Something will eventually go here. Not sure what.
     </div>
   </div>
 </div>
-
-
-

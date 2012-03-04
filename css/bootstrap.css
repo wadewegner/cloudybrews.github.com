@@ -3461,9 +3461,9 @@ a.thumbnail:hover {
   color: #ffffff;
 }
 .hero-unit {
-  padding: 60px;
+  padding: 40px;
   margin-bottom: 30px;
-  background-color: #f5f5f5;
+  background-color: #007FFF;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -3493,4 +3493,14 @@ a.thumbnail:hover {
 }
 .invisible {
   visibility: hidden;
+}
+/* Wade's custom */
+.side-unit {
+  background-color: #CCC;
+  height:200px;
+  float: left;
+  width: 190px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }

@@ -1,0 +1,21 @@
+{% include header.html %}
+
+<body>
+
+{% include nav.html %}
+
+    <div class="container">
+
+		<article id="{{ post.id }}" class="single post">
+			<header> 
+				<h1>{{ page.title }}</h1>
+				<h2>
+				<p class="meta"><a href="{{ post.url }}"><time datetime="{{ post.date | date_to_xmlschema }}" pubdate>{{ post.date | date: "%B %d, %Y" }}</time></a></p>
+			</header>
+			{{ content }}
+		</article>
+
+{% include footer.html %}
+
+</body>
+</html>
